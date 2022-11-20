@@ -17,6 +17,9 @@ module.exports = {
       'gray-light': '#d3dce6',
       transparent: 'transparent',
     },
+    bg:{
+      'white': 'white'
+    },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],

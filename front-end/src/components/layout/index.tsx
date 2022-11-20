@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 export default function Layout({ children }: any) {
@@ -6,7 +7,7 @@ export default function Layout({ children }: any) {
     <React.Fragment>
       <Navbar />
       <main>{children}</main>
-      <div>Footer</div>
+      <Footer />
     </React.Fragment>
   );
 }

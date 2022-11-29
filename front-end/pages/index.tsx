@@ -1,3 +1,11 @@
+import BasicCard from "../src/components/layout/products/Product";
+
 export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <section className="py-20">
+      <div className="container px-8">
+        <BasicCard />
+      </div>
+    </section>
+  );
 }
